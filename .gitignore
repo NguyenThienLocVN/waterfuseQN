@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+/FTP_FILES/
+#  FTP_FILES is a directory that contains files uploaded via FTP. It is recommended to ignore
+
+/LOGS
