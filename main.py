@@ -5,9 +5,9 @@ from datetime import datetime
 import getpass
 
 # --- Cấu hình ---
-USR = input("Nhập tên đăng nhập: ")
-PWD = getpass.getpass("Nhập mật khẩu: ")
-folder_path = input("Đường dẫn đầy đủ tới thư mục chứa file .txt: ").strip()
+USR = "dev.locntx"
+PWD = "loc@123"
+folder_path = input("Đường dẫn tới thư mục chứa file .txt: ").strip()
 log_path = r"LOGS\error_log.txt"
 processed_path = r"LOGS\processed_files.txt"
 REMEMBER_ME = True
